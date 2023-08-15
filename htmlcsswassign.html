@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Page Styling</title>
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <h1>Main Heading</h1>
+            <h2>Subheading</h2>
+        </header>
+        <section>
+            <h2>Section Heading</h2>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
+/* Apply background color for the entire page */
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the main container */
+.main-container {
+    background-color: #fff;
+    padding: 20px;
+}
+
+/* Style the div */
+section {
+    background-color: #e6f7ff;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+/* Apply unique fonts to headings */
+h1, h2 {
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+/* Add border and rounded corners to section elements */
+section {
+    border: 2px solid #ccc;
+    border-radius: 15px;
+}
+
+/* Style list items inside skills section */
+.skills-list li {
+    color: #333;
+    transition: color 0.3s;
+}
+
+.skills-list li:hover {
+    color: #e74c3c;
+    cursor: pointer;
+}
